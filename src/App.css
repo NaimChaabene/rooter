@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  font-weight: 300;
+  background: #50a3a2;
+  width: 100%;
+  height: 100%;
+} 
+
+.container {
+
+  text-align: center;
+}
+
+h3{color:black}
+
+input,textarea {
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  background-color: rgba(252, 252, 252, 0.2);
+  width: 250px;
+  border-radius: 3px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+}
+.InputRating{
+  
+justify-content: center;
+align-items:flex-start ;
+}
+
+
+button {
+  appearance: none;
+  outline: 0;
+  background-color: white;
+  border: 0;
+  padding: 10px 15px;
+  color: #50a3a2;
+  border-radius: 3px;
+  width: 250px;
+  font-size: 18px;
+}
+
+.MovieCard {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 300px;
+  height:400px ;
+  margin: 16px;
+  float: left;
+ 
+}
+.MovieCard h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  color: red;
+}
+.MovieCard p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: black;
+}
+.movies{
+ 
+  display: flex;
+  flex-wrap:wrap ;
+  justify-content: center ;
+}
+.addSearch{
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap ;
+}
